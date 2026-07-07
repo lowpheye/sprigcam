@@ -7,6 +7,6 @@ i (in a very convoluted pick) use a UART reader i used to debug the power as a u
 # where do the photos go
 take photos with the L button! the esp creates its own wifi network where it locally hosts a simple website where you can download every photo you make. photos are stored on an sd card (the module has an sd card slot)
 # code
-the code is not very solid, and because of how serial works, the image gets refreshed very slowly on the sprig, at about 1fps. maybe there was a better way of doing it. i also took the design choice of storing the images at the same resolution they get rendered in the sprig's screen, in that way what you see is what you get.
+the code is not very solid (very vibecoded!), and because of how serial works, the image gets refreshed very slowly on the sprig, at about 1fps. maybe there was a better way of doing it. i also took the design choice of storing the images at the same resolution they get rendered in the sprig's screen, in that way what you see is what you get.
 # rock
 n roll
