@@ -1,7 +1,13 @@
 # sprigcam
 proof of concept of a camera mod for hack club's sprig videogame console
+
+![img2](https://raw.githubusercontent.com/lowpheye/sprigcam/refs/heads/main/img2.png)
+
 # build
 you only need a ESP32-CAM module. connect the esp's TX (UOT) to the pico's GP1 and the esp's RX (UOR) to the pico's GP0, you can either solder to the pads or sandwich the cables between the pi and the sprig.
+
+![img1](https://raw.githubusercontent.com/lowpheye/sprigcam/refs/heads/main/img1.png)
+
 # power
 i (in a very convoluted pick) use a UART reader i used to debug the power as a usb-c power source for the esp32cam, but i'm sure there's a way to power the esp32 using the sprig. maybe. there's a lot of implementing to be done in the power side
 # where do the photos go
